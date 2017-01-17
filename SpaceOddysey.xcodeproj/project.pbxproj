@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD372CB21E2EA13100F83344 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD372CB11E2EA13100F83344 /* AppDelegate.swift */; };
+		FD372CB41E2EA13100F83344 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD372CB31E2EA13100F83344 /* ViewController.swift */; };
+		FD372CB71E2EA13100F83344 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD372CB51E2EA13100F83344 /* Main.storyboard */; };
+		FD372CB91E2EA13100F83344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD372CB81E2EA13100F83344 /* Assets.xcassets */; };
+		FD372CBC1E2EA13100F83344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD372CBA1E2EA13100F83344 /* LaunchScreen.storyboard */; };
+		FD372CC71E2EA13100F83344 /* SpaceOddyseyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD372CC61E2EA13100F83344 /* SpaceOddyseyTests.swift */; };
+		FD372CD21E2EA13200F83344 /* SpaceOddyseyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD372CD11E2EA13200F83344 /* SpaceOddyseyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD372CC31E2EA13100F83344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD372CA61E2EA13100F83344 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD372CAD1E2EA13100F83344;
+			remoteInfo = SpaceOddysey;
+		};
+		FD372CCE1E2EA13200F83344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD372CA61E2EA13100F83344 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD372CAD1E2EA13100F83344;
+			remoteInfo = SpaceOddysey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD372CAE1E2EA13100F83344 /* SpaceOddysey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceOddysey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD372CB11E2EA13100F83344 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD372CB31E2EA13100F83344 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD372CB61E2EA13100F83344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD372CB81E2EA13100F83344 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD372CBB1E2EA13100F83344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD372CBD1E2EA13100F83344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD372CC21E2EA13100F83344 /* SpaceOddyseyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceOddyseyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD372CC61E2EA13100F83344 /* SpaceOddyseyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceOddyseyTests.swift; sourceTree = "<group>"; };
+		FD372CC81E2EA13200F83344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD372CCD1E2EA13200F83344 /* SpaceOddyseyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceOddyseyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD372CD11E2EA13200F83344 /* SpaceOddyseyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceOddyseyUITests.swift; sourceTree = "<group>"; };
+		FD372CD31E2EA13200F83344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD372CAB1E2EA13100F83344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD372CBF1E2EA13100F83344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD372CCA1E2EA13200F83344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD372CA51E2EA13100F83344 = {
+			isa = PBXGroup;
+			children = (
+				FD372CB01E2EA13100F83344 /* SpaceOddysey */,
+				FD372CC51E2EA13100F83344 /* SpaceOddyseyTests */,
+				FD372CD01E2EA13200F83344 /* SpaceOddyseyUITests */,
+				FD372CAF1E2EA13100F83344 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD372CAF1E2EA13100F83344 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD372CAE1E2EA13100F83344 /* SpaceOddysey.app */,
+				FD372CC21E2EA13100F83344 /* SpaceOddyseyTests.xctest */,
+				FD372CCD1E2EA13200F83344 /* SpaceOddyseyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD372CB01E2EA13100F83344 /* SpaceOddysey */ = {
+			isa = PBXGroup;
+			children = (
+				FD372CB11E2EA13100F83344 /* AppDelegate.swift */,
+				FD372CB31E2EA13100F83344 /* ViewController.swift */,
+				FD372CB51E2EA13100F83344 /* Main.storyboard */,
+				FD372CB81E2EA13100F83344 /* Assets.xcassets */,
+				FD372CBA1E2EA13100F83344 /* LaunchScreen.storyboard */,
+				FD372CBD1E2EA13100F83344 /* Info.plist */,
+			);
+			path = SpaceOddysey;
+			sourceTree = "<group>";
+		};
+		FD372CC51E2EA13100F83344 /* SpaceOddyseyTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD372CC61E2EA13100F83344 /* SpaceOddyseyTests.swift */,
+				FD372CC81E2EA13200F83344 /* Info.plist */,
+			);
+			path = SpaceOddyseyTests;
+			sourceTree = "<group>";
+		};
+		FD372CD01E2EA13200F83344 /* SpaceOddyseyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD372CD11E2EA13200F83344 /* SpaceOddyseyUITests.swift */,
+				FD372CD31E2EA13200F83344 /* Info.plist */,
+			);
+			path = SpaceOddyseyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD372CAD1E2EA13100F83344 /* SpaceOddysey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD372CD61E2EA13200F83344 /* Build configuration list for PBXNativeTarget "SpaceOddysey" */;
+			buildPhases = (
+				FD372CAA1E2EA13100F83344 /* Sources */,
+				FD372CAB1E2EA13100F83344 /* Frameworks */,
+				FD372CAC1E2EA13100F83344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceOddysey;
+			productName = SpaceOddysey;
+			productReference = FD372CAE1E2EA13100F83344 /* SpaceOddysey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD372CC11E2EA13100F83344 /* SpaceOddyseyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD372CD91E2EA13200F83344 /* Build configuration list for PBXNativeTarget "SpaceOddyseyTests" */;
+			buildPhases = (
+				FD372CBE1E2EA13100F83344 /* Sources */,
+				FD372CBF1E2EA13100F83344 /* Frameworks */,
+				FD372CC01E2EA13100F83344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD372CC41E2EA13100F83344 /* PBXTargetDependency */,
+			);
+			name = SpaceOddyseyTests;
+			productName = SpaceOddyseyTests;
+			productReference = FD372CC21E2EA13100F83344 /* SpaceOddyseyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD372CCC1E2EA13200F83344 /* SpaceOddyseyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD372CDC1E2EA13200F83344 /* Build configuration list for PBXNativeTarget "SpaceOddyseyUITests" */;
+			buildPhases = (
+				FD372CC91E2EA13200F83344 /* Sources */,
+				FD372CCA1E2EA13200F83344 /* Frameworks */,
+				FD372CCB1E2EA13200F83344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD372CCF1E2EA13200F83344 /* PBXTargetDependency */,
+			);
+			name = SpaceOddyseyUITests;
+			productName = SpaceOddyseyUITests;
+			productReference = FD372CCD1E2EA13200F83344 /* SpaceOddyseyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD372CA61E2EA13100F83344 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ptrojan;
+				TargetAttributes = {
+					FD372CAD1E2EA13100F83344 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					FD372CC11E2EA13100F83344 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FD372CAD1E2EA13100F83344;
+					};
+					FD372CCC1E2EA13200F83344 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FD372CAD1E2EA13100F83344;
+					};
+				};
+			};
+			buildConfigurationList = FD372CA91E2EA13100F83344 /* Build configuration list for PBXProject "SpaceOddysey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD372CA51E2EA13100F83344;
+			productRefGroup = FD372CAF1E2EA13100F83344 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD372CAD1E2EA13100F83344 /* SpaceOddysey */,
+				FD372CC11E2EA13100F83344 /* SpaceOddyseyTests */,
+				FD372CCC1E2EA13200F83344 /* SpaceOddyseyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD372CAC1E2EA13100F83344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD372CBC1E2EA13100F83344 /* LaunchScreen.storyboard in Resources */,
+				FD372CB91E2EA13100F83344 /* Assets.xcassets in Resources */,
+				FD372CB71E2EA13100F83344 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD372CC01E2EA13100F83344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD372CCB1E2EA13200F83344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD372CAA1E2EA13100F83344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD372CB41E2EA13100F83344 /* ViewController.swift in Sources */,
+				FD372CB21E2EA13100F83344 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD372CBE1E2EA13100F83344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD372CC71E2EA13100F83344 /* SpaceOddyseyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD372CC91E2EA13200F83344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD372CD21E2EA13200F83344 /* SpaceOddyseyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD372CC41E2EA13100F83344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD372CAD1E2EA13100F83344 /* SpaceOddysey */;
+			targetProxy = FD372CC31E2EA13100F83344 /* PBXContainerItemProxy */;
+		};
+		FD372CCF1E2EA13200F83344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD372CAD1E2EA13100F83344 /* SpaceOddysey */;
+			targetProxy = FD372CCE1E2EA13200F83344 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD372CB51E2EA13100F83344 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD372CB61E2EA13100F83344 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD372CBA1E2EA13100F83344 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD372CBB1E2EA13100F83344 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD372CD41E2EA13200F83344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD372CD51E2EA13200F83344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD372CD71E2EA13200F83344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpaceOddysey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.SpaceOddysey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FD372CD81E2EA13200F83344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpaceOddysey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.SpaceOddysey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FD372CDA1E2EA13200F83344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpaceOddyseyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.SpaceOddyseyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceOddysey.app/SpaceOddysey";
+			};
+			name = Debug;
+		};
+		FD372CDB1E2EA13200F83344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpaceOddyseyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.SpaceOddyseyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceOddysey.app/SpaceOddysey";
+			};
+			name = Release;
+		};
+		FD372CDD1E2EA13200F83344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SpaceOddyseyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.SpaceOddyseyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SpaceOddysey;
+			};
+			name = Debug;
+		};
+		FD372CDE1E2EA13200F83344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SpaceOddyseyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.SpaceOddyseyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SpaceOddysey;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD372CA91E2EA13100F83344 /* Build configuration list for PBXProject "SpaceOddysey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD372CD41E2EA13200F83344 /* Debug */,
+				FD372CD51E2EA13200F83344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD372CD61E2EA13200F83344 /* Build configuration list for PBXNativeTarget "SpaceOddysey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD372CD71E2EA13200F83344 /* Debug */,
+				FD372CD81E2EA13200F83344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD372CD91E2EA13200F83344 /* Build configuration list for PBXNativeTarget "SpaceOddyseyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD372CDA1E2EA13200F83344 /* Debug */,
+				FD372CDB1E2EA13200F83344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD372CDC1E2EA13200F83344 /* Build configuration list for PBXNativeTarget "SpaceOddyseyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD372CDD1E2EA13200F83344 /* Debug */,
+				FD372CDE1E2EA13200F83344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD372CA61E2EA13100F83344 /* Project object */;
+}
