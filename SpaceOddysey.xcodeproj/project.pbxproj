@@ -14,6 +14,8 @@
 		FD372CBC1E2EA13100F83344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD372CBA1E2EA13100F83344 /* LaunchScreen.storyboard */; };
 		FD372CC71E2EA13100F83344 /* SpaceOddyseyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD372CC61E2EA13100F83344 /* SpaceOddyseyTests.swift */; };
 		FD372CD21E2EA13200F83344 /* SpaceOddyseyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD372CD11E2EA13200F83344 /* SpaceOddyseyUITests.swift */; };
+		FDBEFD011E2EB25500C657CC /* FirstScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBEFD001E2EB25500C657CC /* FirstScene.swift */; };
+		FDBEFD051E2EB54D00C657CC /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDBEFD041E2EB54D00C657CC /* SpriteKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		FD372CCD1E2EA13200F83344 /* SpaceOddyseyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceOddyseyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD372CD11E2EA13200F83344 /* SpaceOddyseyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceOddyseyUITests.swift; sourceTree = "<group>"; };
 		FD372CD31E2EA13200F83344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDBEFD001E2EB25500C657CC /* FirstScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstScene.swift; sourceTree = "<group>"; };
+		FDBEFD041E2EB54D00C657CC /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDBEFD051E2EB54D00C657CC /* SpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,7 @@
 				FD372CC51E2EA13100F83344 /* SpaceOddyseyTests */,
 				FD372CD01E2EA13200F83344 /* SpaceOddyseyUITests */,
 				FD372CAF1E2EA13100F83344 /* Products */,
+				FDBEFD031E2EB54D00C657CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +103,11 @@
 		FD372CB01E2EA13100F83344 /* SpaceOddysey */ = {
 			isa = PBXGroup;
 			children = (
+				FDBEFD021E2EB26400C657CC /* supportedFiles */,
 				FD372CB11E2EA13100F83344 /* AppDelegate.swift */,
-				FD372CB31E2EA13100F83344 /* ViewController.swift */,
 				FD372CB51E2EA13100F83344 /* Main.storyboard */,
-				FD372CB81E2EA13100F83344 /* Assets.xcassets */,
-				FD372CBA1E2EA13100F83344 /* LaunchScreen.storyboard */,
-				FD372CBD1E2EA13100F83344 /* Info.plist */,
+				FD372CB31E2EA13100F83344 /* ViewController.swift */,
+				FDBEFD001E2EB25500C657CC /* FirstScene.swift */,
 			);
 			path = SpaceOddysey;
 			sourceTree = "<group>";
@@ -123,6 +128,24 @@
 				FD372CD31E2EA13200F83344 /* Info.plist */,
 			);
 			path = SpaceOddyseyUITests;
+			sourceTree = "<group>";
+		};
+		FDBEFD021E2EB26400C657CC /* supportedFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FD372CB81E2EA13100F83344 /* Assets.xcassets */,
+				FD372CBA1E2EA13100F83344 /* LaunchScreen.storyboard */,
+				FD372CBD1E2EA13100F83344 /* Info.plist */,
+			);
+			name = supportedFiles;
+			sourceTree = "<group>";
+		};
+		FDBEFD031E2EB54D00C657CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDBEFD041E2EB54D00C657CC /* SpriteKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +216,7 @@
 				TargetAttributes = {
 					FD372CAD1E2EA13100F83344 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = XL68M6DDH6;
 						ProvisioningStyle = Automatic;
 					};
 					FD372CC11E2EA13100F83344 = {
@@ -260,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD372CB41E2EA13100F83344 /* ViewController.swift in Sources */,
+				FDBEFD011E2EB25500C657CC /* FirstScene.swift in Sources */,
 				FD372CB21E2EA13100F83344 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XL68M6DDH6;
 				INFOPLIST_FILE = SpaceOddysey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pl.SpaceOddysey;
@@ -422,6 +448,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XL68M6DDH6;
 				INFOPLIST_FILE = SpaceOddysey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pl.SpaceOddysey;
@@ -503,6 +530,7 @@
 				FD372CD81E2EA13200F83344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD372CD91E2EA13200F83344 /* Build configuration list for PBXNativeTarget "SpaceOddyseyTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +539,7 @@
 				FD372CDB1E2EA13200F83344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD372CDC1E2EA13200F83344 /* Build configuration list for PBXNativeTarget "SpaceOddyseyUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +548,7 @@
 				FD372CDE1E2EA13200F83344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
